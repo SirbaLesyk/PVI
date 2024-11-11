@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PVI</title>
+    <style>
+        table, th, td {
+            border: 1px solid;
+        }
+    </style>
 </head>
 <body>
-    
+    <table>
+        <tr>
+            <td rowspan="2" style="vertical-align: bottom;">Клітинка 1</td>
+            <td colspan="2">Клітинка 2</td>
+        </tr>
+        <tr>
+            <td colspan="2">Клітинка 6</td>
+        </tr>
+        <tr>
+            <td>Клітинка 5</td>
+            <td rowspan="2" style="vertical-align: bottom;">Клітинка 7</td>
+            <td rowspan="2" style="vertical-align: bottom;">Клітинка 5</td>
+        </tr>
+        <tr>
+            <td>Клітинка 8</td>
+        </tr>
+    </table>
 </body>
 </html>
