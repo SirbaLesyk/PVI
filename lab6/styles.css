@@ -1,0 +1,45 @@
+#logos_container {
+    padding: 0.75rem 0;
+}
+
+#logos_container a {
+    text-align: center;
+}
+
+#logos_container img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+#logos_container {
+    padding: 1rem 0;
+}
+
+#logos_container img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 175px;
+}
+.col-xs-4 {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
